@@ -12,3 +12,22 @@ nav img {
 #carousel img {
     max-height: 850px;
 }
+
+#quienes-somos {
+    background-color: #021313;
+}
+
+#destacados{
+    background-color: #021313;
+    & img {
+        max-height: 202px;
+    }
+}
+
+#contacto{
+    background-color: #021313;
+
+    & textarea {
+        height: 200px;
+    }
+}
